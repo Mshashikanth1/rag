@@ -1,5 +1,5 @@
 
-<img src="https://github.com/Mshashikanth1/rag/blob/main/Screenshot%202024-04-10%20at%205.20.26%20PM.png" alt="GitHub Logo" width="200"/>
+<img src="https://github.com/Mshashikanth1/rag/blob/main/Screenshot%202024-04-10%20at%205.20.26%20PM.png" alt="simulation "/>
 
 # TO automatically capture all the depencies from you py env use the below cmd
 ```
