@@ -1,3 +1,6 @@
+
+https://github.com/Mshashikanth1/rag/blob/main/Screenshot%202024-04-10%20at%205.20.26%20PM.png
+
 # TO automatically capture all the depencies from you py env use the below cmd
 ```
 pip freeze > requirements.txt
