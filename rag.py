@@ -9,13 +9,16 @@ from llama_index.llms import Ollama
 
 print(" ============================ simple RAG (retrieve augmented generation) ============================")
 print("reading the pdfs present in current directory")
-llm = Ollama(model="mistral")
+# llm = Ollama(model="mistral")
+# llm = Ollama(model="llama3")
+# llm = Ollama(model="phi3")
+llm=Ollama(model="mixtral:8x22b")
 
 # Reads pdfs at "./" path
 documents = (
     SimpleDirectoryReader(
         input_dir='./',
-        required_exts=[".pdf"])
+        required_exts=[".pdf",".csv"])
     .load_data()
 )
 
